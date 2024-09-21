@@ -1,0 +1,54 @@
+@font-face {
+  font-family: lemon-milk;
+  src: url(LEMONMILK-Medium.otf);
+}
+
+h3 {
+  font-family: lemon-milk;
+  text-align: center;
+  color:#191919;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  background-image: linear-gradient(45deg, #0f0c25, #463f47);
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(-45deg, #393079, #6f6471);
+  padding:40px;
+  border-radius: 15px;
+  box-shadow: black;
+  justify-content: center;
+}
+
+#senha {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-color: grey;
+  border-radius: 15px;
+}
+
+#email {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-color: grey;
+  border-radius: 15px;
+}
+
+.login {
+  cursor: pointer;
+  background-color: #29532a;
+  color: white;
+  margin-left: 30%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
