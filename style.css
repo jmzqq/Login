@@ -24,7 +24,7 @@ body {
   top: 50%;
   right: 0; 
   transform: translateY(-50%);
-  padding: 20.6vh 16.8vw;
+  padding: 21vh 16.8vw;
   background-color: rgb(20, 20, 20);
   border-radius: 23px;
   border-top-right-radius: 0;
@@ -60,50 +60,49 @@ h4 {
 }
 
 h3 {
-  color: #ffffff; /* Cor do texto das instruções */
-  font-size: 1.2rem; /* Diminuído para melhorar a estética */
-  margin-bottom: 5px; /* Espaço entre o h3 e o input */
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
 form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 350px; /* Aumentado para mais espaço */
+  max-width: 350px;
 }
 
 input {
-  padding: 15px; /* Conforto */
+  padding: 15px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
   font-size: 1.5rem;
-  width: 120%; /* Aumentado para ocupar mais da largura do formulário */
-  max-width: none; /* Remove a limitação de largura máxima */
-  box-sizing: border-box; /* Inclui o padding na largura total */
-  margin-left: 0.5; /* Ajusta a margem para centralizar */
+  width: 120%;
+  max-width: none;
+  box-sizing: border-box;
+  margin-left: 0.5;
 }
 
 
 .imagem {
   display: block;
-  width: 100%; /* Faz a imagem ocupar toda a largura */
-  max-width: 881px; /* Limita a largura máxima */
-  height: auto; /* Mantém a proporção */
+  width: 100%;
+  max-width: 881px;
+  height: auto;
 }
 
 .login-botao {
   cursor: pointer;
   background-color: #8c3f83;
   color: white;
-  padding: 12px; /* Aumentado para conforto */
+  padding: 12px;
   border-radius: 20px;
   border: none;
-  width: 100%; /* Ocupa toda a largura do formulário */
-  max-width: 350px; /* Aumentado para mais espaço */
-  font-size: 1rem; /* Tamanho da fonte do botão */
-  margin-top: 10px; /* Espaço acima do botão */
+  width: 100%;
+  max-width: 350px;
+  font-size: 1rem;
+  margin-top: 10px;
   margin-left: 10%;
-  transition: background-color 0.3s; /* Transição suave ao passar o mouse */
 }
