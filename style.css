@@ -3,52 +3,107 @@
   src: url(LEMONMILK-Medium.otf);
 }
 
-h3 {
-  font-family: lemon-milk;
-  text-align: center;
-  color:#191919;
-}
-
 body {
   font-family: sans-serif;
   display: flex;
-  background-image: linear-gradient(45deg, #0f0c25, #463f47);
-  justify-content: center;
-  align-items:center;
+  justify-content: flex-start;
+  align-items: center;
   height: 100vh;
+  margin: 0;
+  background-color: #afafaf;
 }
 
 .container {
-  background-image: linear-gradient(-45deg, #393079, #6f6471);
-  padding:40px;
-  border-radius: 15px;
-  box-shadow: black;
-  justify-content: center;
+  position: relative;
+  height: 100vh;
 }
 
-#senha {
+.login-container {
+  display: flex;
+  position: absolute; 
+  top: 50%;
+  right: 0; 
+  transform: translateY(-50%);
+  padding: 20.6vh 16.8vw;
+  background-color: rgb(20, 20, 20);
+  border-radius: 23px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+}
+
+.login-titulo {
+  font-family: lemon-milk;
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: 0;
   text-align: center;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-color: grey;
-  border-radius: 15px;
 }
 
-#email {
-  text-align: center;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-color: grey;
-  border-radius: 15px;
+.sysshop {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
-.login {
+h3 {
+  color: #ffffff; /* Cor do texto das instruções */
+  font-size: 1.2rem; /* Diminuído para melhorar a estética */
+  margin-bottom: 5px; /* Espaço entre o h3 e o input */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px; /* Aumentado para mais espaço */
+}
+
+input {
+  padding: 15px; /* Conforto */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  width: 120%; /* Aumentado para ocupar mais da largura do formulário */
+  max-width: none; /* Remove a limitação de largura máxima */
+  box-sizing: border-box; /* Inclui o padding na largura total */
+  margin-left: 0.5; /* Ajusta a margem para centralizar */
+}
+
+
+.imagem {
+  display: block;
+  width: 100%; /* Faz a imagem ocupar toda a largura */
+  max-width: 881px; /* Limita a largura máxima */
+  height: auto; /* Mantém a proporção */
+}
+
+.login-botao {
   cursor: pointer;
-  background-color: #29532a;
+  background-color: #8c3f83;
   color: white;
-  margin-left: 30%;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 12px; /* Aumentado para conforto */
+  border-radius: 20px;
+  border: none;
+  width: 100%; /* Ocupa toda a largura do formulário */
+  max-width: 350px; /* Aumentado para mais espaço */
+  font-size: 1rem; /* Tamanho da fonte do botão */
+  margin-top: 10px; /* Espaço acima do botão */
+  margin-left: 10%;
+  transition: background-color 0.3s; /* Transição suave ao passar o mouse */
 }
